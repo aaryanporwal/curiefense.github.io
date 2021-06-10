@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 'Curiefense Blog'
-description: 'News and information about Curiefense, the security extension for Envoy'
+title: "Curiefense Blog"
+description: "News and information about Curiefense, the security extension for Envoy"
 ---
 
 <div class="hero-nohome blog-posts">
@@ -47,9 +47,9 @@ description: 'News and information about Curiefense, the security extension for 
             <div class="w-col w-col-6">
               <div class="blog-box-date">{{post.createdOn | date_to_string: "ordinal", "US"}}</div>
             </div>
-            <div class="w-col w-col-6">
+            <!-- <div class="w-col w-col-6">
               <div class="blog-box-date">by {{post.author}}</div>
-            </div>
+            </div> -->
           </div>
           <a href="{{post.url}}" class="w-inline-block">
             <div class="blog-box-name">{{post.title}}</div>
